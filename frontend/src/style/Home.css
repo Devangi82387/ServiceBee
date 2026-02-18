@@ -1,91 +1,64 @@
-/* Full page dark background */
 .home-container {
   height: 100vh;
-  background: linear-gradient(135deg, #0f172a, #020617);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #0c174b);
 }
 
-
-/* Card */
 .home-card {
-  background: #111827;
+  background: white;
   padding: 40px;
-  border-radius: 16px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  border-radius: 15px;
   text-align: center;
-  width: 350px;
+  width: 600px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-
-/* Title */
 .home-title {
-  color: #f9fafb;
   margin-bottom: 10px;
-  font-size: 28px;
+  font-size: 32px;
 }
 
-
-/* Subtitle */
 .home-subtitle {
-  color: #9ca3af;
   margin-bottom: 30px;
+  color: gray;
 }
 
-
-/* Buttons container */
-.home-buttons {
+.role-container {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-
-/* Base button */
-.home-btn {
-  padding: 12px;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
+.role-card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
-  font-weight: 600;
+  border: 2px solid transparent;
 }
 
-
-/* Customer button */
-.customer-btn {
-  background: #2563eb;
-  color: white;
+.role-card:hover {
+  transform: translateY(-5px);
+  border-color: #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-.customer-btn:hover {
-  background: #1d4ed8;
-  transform: translateY(-2px);
+.role-img {
+  width: 80px;
+  margin-bottom: 10px;
 }
 
-
-/* Provider button */
-.provider-btn {
-  background: #059669;
-  color: white;
+.customer {
+  background: #f0f8ff;
 }
 
-.provider-btn:hover {
-  background: #047857;
-  transform: translateY(-2px);
+.provider {
+  background: #f5fff0;
 }
 
-
-/* Admin button */
-.admin-btn {
-  background: #dc2626;
-  color: white;
-}
-
-.admin-btn:hover {
-  background: #b91c1c;
-  transform: translateY(-2px);
+.admin {
+  background: #fff5f5;
 }

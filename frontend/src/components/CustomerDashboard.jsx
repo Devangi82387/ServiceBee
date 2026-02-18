@@ -69,7 +69,7 @@ const CustomerDashboard = () => {
     <div className="dashboard">
       {/* NAVBAR */}
       <nav className="navbar">
-        <h2>Service Bee</h2>
+        <h2>Service Bee 🐝</h2>
       </nav>
 
       <div className="dashboard-body">

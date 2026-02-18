@@ -67,6 +67,22 @@ const ProviderDashboard = () => {
   return (
     <div className="provider-dashboard">
       <h2>Service Provider Dashboard</h2>
+      <button
+      onClick={() => navigate("/")}
+      style={{
+        marginBottom: "20px",
+        padding: "8px 14px",
+        backgroundColor: "#5465a9",
+        color: "white",
+        border: "none",
+        borderRadius: "6px",
+        cursor: "pointer",
+        fontSize: "14px"
+      }}
+    >
+      ← Back to Home
+    </button>
+
 
       {/* ⭐ AVERAGE RATING */}
       <div className="rating-box">

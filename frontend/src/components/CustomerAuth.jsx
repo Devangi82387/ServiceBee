@@ -35,7 +35,12 @@ const CustomerAuth = () => {
   };
 
   return (
+    <>
+   
     <div className="auth-container">
+      
+      
+
       <h2>{mode.toUpperCase()} as Customer</h2>
       <form onSubmit={handleSubmit}>
         {mode === "register" && (
@@ -66,6 +71,7 @@ const CustomerAuth = () => {
         {mode === "login" ? "Register" : "Login"}
       </button>
     </div>
+     </>
   );
 };
 

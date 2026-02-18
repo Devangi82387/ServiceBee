@@ -51,6 +51,24 @@ const MyBookings = () => {
 
   return (
     <div className="my-bookings">
+      
+
+    <button
+      onClick={() => navigate("/customerDashboard")}
+      style={{
+        marginBottom: "20px",
+        padding: "8px 14px",
+        backgroundColor: "#5465a9",
+        color: "white",
+        border: "none",
+        borderRadius: "6px",
+        cursor: "pointer",
+        fontSize: "14px"
+      }}
+    >
+      ← Back to Dashboard
+    </button>
+
       <h2>My Bookings</h2>
 
       {bookings.length === 0 && <p>No bookings found</p>}

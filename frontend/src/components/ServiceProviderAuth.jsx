@@ -63,6 +63,8 @@ const ServiceProviderAuth = () => {
 
   return (
     <div className="auth-container">
+      
+      
       <h2>{mode.toUpperCase()} as Service Provider</h2>
 
       <form onSubmit={handleSubmit}>

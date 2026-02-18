@@ -7,6 +7,25 @@ body {
 }
 
 
+.back-btn {
+  position: absolute;      
+  top: 20px;               
+  right: 20px;            
+  padding: 10px 14px;
+  background-color: #5465a9 !important;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+  z-index: 1000;          
+}
+
+.back-btn:hover {
+  background-color: #4056a1;
+}
+
 /* Main container */
 .auth-container {
   width: 400px;

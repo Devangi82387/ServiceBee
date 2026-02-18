@@ -63,7 +63,13 @@ const ServiceProviderAuth = () => {
 
   return (
     <div className="auth-container">
-      
+      <button
+        type="button"
+        onClick={() => navigate("/")}
+        className="back-btn"
+      >
+        ← Back to Home
+      </button>
       
       <h2>{mode.toUpperCase()} as Service Provider</h2>
 
